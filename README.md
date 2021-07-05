@@ -1,1 +1,3 @@
 # 20210610_hara_LikeTwitterPj-frontend
+Twitter風SNSアプリケーションのフロントエンド
+Nuxt.js
