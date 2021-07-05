@@ -1,0 +1,257 @@
+body{
+  background-color: #000022;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+
+tr{
+  border: solid 1px white;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  background-color: #330099;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+
+/* header */
+.header{
+  color: white;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+}
+.header__img{
+  height: 70%;
+}
+.header__list{
+  line-height: 60px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+/* login register */
+.login, .register{
+  align-items: center;
+}
+.accountform{
+  background-color: white;
+  width: 40%;
+  align-items: center;
+  margin-top: 100px;
+  padding: 25px;
+  border-radius: 5px;
+}
+.accountform__title{
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 10px;
+  height: 40px;
+  line-height: 40px;
+}
+.accountform__forms{
+  align-items: center;
+  width: 90%;
+}
+.accountform__formwrapper{
+  width: 100%;
+}
+.accountform__form{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.accountform__button{
+  background-color: #330099;
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  width: 40%;
+  margin: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.error{
+  font-size: 12px;
+  color: red;
+  line-height: 16px;
+}
+
+
+/* sidebar */
+.sidebar{
+  width: 30%;
+  padding: 20px;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sidebar__logo{
+  height: 40px;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+.sidebar__logo:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.sidebar__logo-icon{
+  width: 30px;
+  height: 30px;
+}
+.sidebar__logo-text{
+  margin-left: 10px;
+  color: white;
+}
+
+.tweet{
+  width: 100%;
+}
+.tweet__textbox{
+  background-color: #000022;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  min-height: 120px;
+}
+.tweet__button-wrapper{
+  width: 100%;
+  justify-content: flex-end;
+}
+.tweet__button{
+  margin: 10px 0;
+}
+
+/* tweet */
+.tweet__table{
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 30%;
+}
+
+.tweet__table-heading th{
+  padding: 10px;
+  text-align: left;
+}
+.tweet__accountname{
+  font-weight: bold;
+  font-size: 14px;
+  width: 120px;
+}
+.tweet__icon{
+  background-color: transparent;
+  border: none;
+}
+.deleteButtonSpace{
+  width: 32px;
+}
+.tweet__icon-img{
+  height: 18px;
+  transform:translateY(15%);
+}
+.tweet__icon-img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.tweet__like{
+  width: 15px;
+}
+.liked{
+  filter: invert(72%) sepia(26%) saturate(6428%) hue-rotate(1deg) brightness(105%) contrast(102%);
+}
+.toComment{
+  margin-left: 40px;
+}
+.tweet__content-upper{
+  height: 35px;
+  line-height: 40px;
+  margin: 0 10px;
+}
+.tweet__content-bottom{
+  margin: 0 10px;
+}
+.tweet__content{
+  font-size: 12px;
+  height: 25px;
+  line-height: 20px;
+}
+
+/* comment */
+.main__content{
+  width: 70%;
+  margin-left: 30%;
+}
+.comment__table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.comment__table-heading{
+  height: 40px;
+}
+.comment__accountname{
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+.comment__content{
+  font-size: 12px;
+  padding: 0 10px;
+  padding-bottom: 3px;
+}
+
+.comment{
+  width: 100%;
+  margin: 15px 0;
+}
+.comment__textbox{
+  background-color: #000022;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  min-height: 60px;
+}
+.comment__button-wrapper{
+  width: 100%;
+  justify-content: flex-end;
+}
+.comment__button{
+  margin: 10px 0;
+}
